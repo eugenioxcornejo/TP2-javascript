@@ -8,7 +8,7 @@ if(numero>50){
 
 for (numero2; numero2>=numero; numero2--){
     
-    for(let columna=50; columna>=numero2; columna--){
+    for(let columna=1; columna<=numero2; columna++){
         document.write(`${numero2}  `); 
     }
     

@@ -4,13 +4,16 @@ if(numero>50){
     document.write('numero mayor a 50 por favor indique un numero entre 1 y 50');
     }
 
-for (numero; numero<=50; numero++){
+    let numero2=50
 
-    for(let columna=1; columna<=numero; columna++){
-        document.write(`${numero}  `); 
+for (numero2; numero2>=numero; numero2--){
+    
+    for(let columna=50; columna>=numero2; columna--){
+        document.write(`${numero2}  `); 
     }
     
     document.write(`<p></p>`);
 }
+
 
 
